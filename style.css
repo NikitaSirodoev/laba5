@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    background-image: url(fon.jpg);
+}
+header{
+    width:100%;
+    height:auto;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+header p {
+        font-size: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 1;
+        font-family: Arial;
+}
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+    z-index: 1;
+}
+.container {
+    border: none;
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    background-color: azure;
+    display: flex;
+    align-items: flex-start;
+    z-index: 1;
+    margin-bottom: 100px;
+   
+}
